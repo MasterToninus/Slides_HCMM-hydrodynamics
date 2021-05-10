@@ -1,0 +1,135 @@
+%+------------------------------------------------------------------------+
+%| Abstract: short presentation on my paper 1805.01696
+%| Event: Young researchers GMC workshop - Coimbra, Dec. 2018
+%| Author: Antonio miti
+%+------------------------------------------------------------------------+
+
+
+\documentclass[11pt,a4paper,twoside]{article}
+
+\usepackage{fancyhdr}
+%\usepackage[T1]{fontenc}
+\usepackage{amsfonts}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%             SIZE             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\parskip=0.5ex
+\oddsidemargin= 0.35cm
+\evensidemargin= 0.35cm
+
+\parindent=1.5em
+\textheight=23.0cm
+\textwidth=15.5cm
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%             ABSTRACT             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\def\sj{\vskip.6cm}
+
+\def \yourtitle #1{{\Large \bf #1} \par \vspace{10pt}}
+
+\def \speaker #1#2#3#4{
+\textbf{#1 #2} \par #3 \par \texttt{#4}
+\par
+\vspace{7pt}
+}
+
+\def \author #1#2#3#4{
+#1 #2 \par #3 \par \texttt{#4}
+\par
+\vspace{7pt}
+}
+
+
+\def \thanks #1{\footnote{#1}}
+
+\def \abstracttext{
+\vspace{-2pt}
+\noindent
+%\hrulefill
+\vspace{8pt}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\pagestyle{fancy} \fancyhead[RO]{{\large 13th Young Researchers Workshop } \\  on Geometry, Mechanics and Control}
+\fancyhead[LE]{{\large 13th YRW} \\ 13th YRWorkshop  on Geometry, Mechanics and Control}
+\fancyhead[LO]{} \fancyhead[RE]{}
+
+\yourtitle{A Homotopy co-momentum Map in Hydrodynamics} % Insert here the title of your work
+
+% Insert below the speaker's first name, last name, affiliation, and Email address
+\speaker{Antonio Michele}
+{Miti}
+{Universit\' a Cattolica del Sacro Cuore, Department of Mathematics and Physics, Brescia
+	\phantom{AA} KU Leuven, Department of Mathematics, Leuven}
+{antoniomichele.miti@kuleuven.be}
+%
+% Insert below the first name, last name, affiliation, and Email address for any coauthor of your work
+\author{Mauro}
+{Spera}
+{Universit\' a Cattolica del Sacro Cuore, Department of Mathematics and Physics, Brescia}
+{mauro.spera@unicatt.it}
+%
+%\author{co-author 2 first name}
+%{co-author 2 last name\thanks{co-author 2 wishes to thank someone}}
+%{co-author 2 affiliation}
+%{co-author 2 Email}
+
+\abstracttext
+
+In this talk, based on joint work with M. Spera \cite{firsticle}, we investigate some connections between multisymplectic geometry and hydrodynamics.
+ \\
+ After a brief review of the basic definitions of \emph{multisymplectic manifold} and \emph{Lie-$\infty$ algebra of observables} \cite{R}, we recall the notion of an \emph{Homotopy co-momentum map} \cite{CFRZ} and realize an explicit construction of such object in the case of $\mathbb{R}^3$ which is relevant to hydrodynamics.
+ In this way, we are able to reinterpret the so-called \emph{Rasetti-Regge currents} \cite{RR}, introduced in the contest of vortex dynamics, as momenta associated to the vorticity.
+ \\
+ Time permitting, we shall discuss a generalization of the above construction in the case of \emph{perfect fluid} on compact, oriented Riemannian manifold satisfying appropriate cohomological conditions. %intermediate cohomology groups vanish $H^k(M)= 0\,,\, 1<k<n-2$
+ \\
+ The former construction finds an application in knot theory starting from the observation that $n$-links can be related to suitable \emph{conserved quantities} \cite{RWZ}.
+
+\begin{thebibliography}{99}
+	\bibitem{firsticle}
+		Antonio Michele Miti and Mauro Spera.
+		\newblock \emph{On some (multi)symplectic aspects of link invariants}, 2018;
+		\newblock arXiv:1805.01696.
+	%
+	\bibitem{R}
+		Christopher L. Rogers.
+		\newblock \emph{L-infinity algebras from multisymplectic geometry}, 2010,
+		\newblock Lett. Math. Phys. 100 (2012), 29-50;
+		\newblock arXiv:1005.2230;
+		\newblock DOI:10.1007/s11005-011-0493-x.
+	%
+	\bibitem{CFRZ}
+		Martin Callies, Yael Fregier, Christopher L. Rogers and Marco Zambon.
+		\newblock \emph{Homotopy moment maps}, 2013;
+		\newblock Adv. in Math. 303 (2016), 954-1043;
+		\newblock arXiv:1304.2051;
+		\newblock DOI:10.1016/j.aim.2016.08.012.
+	%
+	\bibitem{RR}
+		Mario Rasetti, Tullio Regge.
+		\newblock \emph{Vortices in He II, current algebras and quantum knots}, 1975,
+		\newblock PHYSICA A. 80. (1975), 217-233;
+		\newblock DOI:10.1016/0378-4371(75)90105-3. 
+	%
+	\bibitem{RWZ}
+		Leonid Ryvkin, Tilmann Wurzbacher and Marco Zambon.
+		\newblock \emph{Conserved quantities on multisymplectic manifolds}, 2016;
+		\newblock arXiv:1610.05592.
+\end{thebibliography}
+
+
+\end{document}

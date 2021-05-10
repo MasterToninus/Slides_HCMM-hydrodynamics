@@ -1,25 +1,10 @@
-# Slides_Template
-Template for technical slides in Latex.
+# Homotopy co-momentum map in hydrodynamics
 
-Style files are in a neverending "work in progress" status.
-
-
-
-
-
-
---------------------------------------------
-
-# Event Title
 Slides for a contributed talk at the [13th International Young Researchers Workshop on Geometry, Mechanics and Control](http://www.uc.pt/en/congressos/13yrw).
 
+Place: Department of Mathematics, University of Coimbra, Coimbra, Portugal;
 
-Place:
-Date:
+Date: 6-8 December  2018.
 
-Title:
-
-
-Contents:
-Lenght:
+Lecture lenght: 30 minutes
 
